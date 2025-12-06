@@ -9,8 +9,8 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=GROQ_API_KEY)
 
-BACKEND_URL = "http://localhost:8000/api"
-
+#BACKEND_URL = "http://localhost:8000/api"
+BACKEND_URL = "https://inteligencianegocios-backend.onrender.com/api"
 
 # --------------------------------------------------------
 # Cargar datos SOLO cuando se usen (lazy loading)
